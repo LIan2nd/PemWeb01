@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Menghitung Jumlah Dua Bilangan</title>
+    </head>
+    <body>
+        <input type="number" id="bil1" onchange="bilangan()" ></input>
+        <br/>
+        +
+        <br/>
+        <input type="number" id="bil2" onchange="bilangan()" ></input>
+        <br/>
+        =
+        <br/>
+        <input type="number" id="hasil"></input>
+    </body>
+    
+    <script>
+        function bilangan(){
+            let bilangan1 = document.getElementById("bil1").value;
+            let bilangan2 = document.getElementById("bil2").value;
+            let hasilJ = parseInt(bilangan1) + parseInt(bilangan2)
+            
+            document.getElementById("hasil").value = hasilJ
+            
+            console.log (bilangan1);
+            console.log (bilangan2);
+            console.log (hasilJ);
+        }
+    </script>
+</html>
