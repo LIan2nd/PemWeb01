@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html style="margin: 0; padding: 0;">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Form Pemesanan Barang</title>
+
+</head>
+<body style="background-color: lightgray; margin: 15; font-family: Times New Roman;">
+    <!--- Navbar --->
+    <div style="width: 100%; height: 5vh">
+        <nav style="border: 2px solid black; display: flex; justify-content: center; align-items: center; width: 100%;">
+            <table style="background-color: white; padding: 10px">
+                <tr style="">
+                    <td padding="10px" width="250px" align="center"><a></a></td>
+                    <td padding="10px" width="250px" align="center"><a href="#" style="color:black; text-decoration: none;">HOME</a> |</td>
+                    <td padding="10px" width="250px" align="center"><a href="" style="color: black; text-decoration: none;">REGISTER</a> |</td>
+                    <td padding="10px" width="250px" align="center"><a href="" style="color:black; text-decoration: none;">POLICY</a> |</td>
+                    <td padding="10px" width="250px" align="center"><a href="" style="color:black; text-decoration: none;">ABOUT</a> |</td>
+                    <td padding="10px" width="250px" align="center"></td>
+                </nav>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <!--- Navbar Selesai --->
+
+    <!--- Content --->
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <table style="width: 100%">
+            <tr>
+                <td style="float: left; padding-top: 9px;" width="220"><img src="Macbook Air.jpg" width="100%" height="180px"></td>
+                <td>
+                    <form>
+                        <table style="float: left">
+                            <tr>
+                                <td style="width: 200px"><label for="title">Title Here :</label></td>
+                                <td style="width: 50px;"></td>
+                                <td><p>
+                                    Macbook Air €800
+                                </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="float: left;"><label for="deskripsi">Description :</label></td>
+                                <td style="width: 50px"></td>
+                                <td><p>
+                                    Year : 2009<br><br>Model :<br><br>Condition : Mint
+                                </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="akun">Total Amount :</label>
+                                </td>
+                                <td style="width:50px"></td>
+                                <td><p>
+                                    €800
+                                </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="bank">Pay to :</label>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td><p>
+                                    123-456-789-0
+                                </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="payment">Payment Type :</label></td>
+                                <td style="width: 50px;"></td>
+                                <td><input type="text" list="bank" value="Visa Debit"><datalist id="bank">
+                                    <option value="Visa Debit"></option>
+                                    <option value="Visa Kredit"></option>
+                                    <option value="Hhe"></option>
+                                </datalist></td>
+                            </tr>
+                            <tr>
+                                <td><label for="holder">Account Holder :</label></td>
+                                <td style="width: 50px"></td>
+                                <td>
+                                    <input type="text" id="holder" value="Name here">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="noakun">Account No :</label></td>
+                                <td></td>
+                                <td><input type="text" id="noakun" value="123-456-789-0"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="width: 50px"></td>
+                                <td style="color: green;">
+                                    <input type="checkbox" id="email" checked><label for="email">Send to </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td style="color: green;">
+                                    <input type="checkbox" id="copyme" checked><label for="copyme">Email Me Copy of Transaction</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="via phone">Send to Mobile Phone :</label></td>
+                                <td style="width: 50px"></td>
+                                <td><input type="text" id="via phone" value="123-456-789-0,123-456-789-1"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="via email">Send to Email :</label></td>
+                                <td style="width: 50px"></td>
+                                <td><input type="email" id="via email" value="mfmm2g13@soton.ac.uk, fys06@yahoo.com"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="width: 50px"></td>
+                                <td><br><br><button type="submit" style="width: 70%; background-color: green; color: white; font-family: Times New Roman;">Pay Using QuidLink</button></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--- content Selesai --->
+</body>
+</html>

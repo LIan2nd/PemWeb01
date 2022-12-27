@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
+
+body {
+    background-color: wheat;
+    padding: 0px;
+    margin: 0px;
+    font-family: "inter", sans-serif;
+    padding: 40xp;
+}
+#header {
+    background-color: burlywood;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: arial black;*/
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+
+#header blockquote {
+    background-color: gold;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#list1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#ul1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    margin-top: 70px;
+}
+.li1 {
+    font-size: 35px;
+}
+
+.gambar {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.isi {
+    margin: 10px 10px 10px;
+    padding: 10px;
+    padding: 10px;
+    color: auto;
+    text-align: justify;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+#profil {
+    /*    background-color: red; */
+    margin: 10px;
+    padding: 10px;
+}
+
+#beternak {
+    background: linear-gradient(45deg, gold, yellow);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.koleksi {
+    width: 25%;
+    background: linear-gradient(180deg, gold, yellow);
+    margin: 10px;
+    padding: 10px;
+}
+
+#g1 {
+    margin: 0px 5px;
+}
+#g2 {
+    margin: 0px 5px;
+}
+#g3 {
+    margin: 0px 5px;
+}
+#g4 {
+    margin: 0px 5px;
+}
+
+.promo {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 75px;
+    color: black;
+}
+
+.promo h2,h3 {
+    text-align: center;
+}
+.promo h4 {
+    color: blue;
+}
+
+.promo ol {
+    background-color: gold;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 0;
+
+
+}
+.promo ol li a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 40px;
+}
